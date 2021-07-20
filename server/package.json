@@ -4,9 +4,8 @@
   "description": "Creating and saving memories",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js",
-    "debug": "ndb server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Aditi Sahu",
   "license": "ISC",
