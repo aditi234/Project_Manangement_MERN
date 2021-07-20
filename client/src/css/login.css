@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap");
+
+.nav {
+  background-color: rgb(226, 130, 20);
+  padding: 2px;
+  border-bottom-left-radius: 2rem;
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.login {
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(226, 130, 20);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 360px;
+  background-color: rgb(26, 24, 24);
+}
+
+.login input {
+  color: white;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(226, 130, 20);
+  background-color: rgb(26, 24, 24);
+}
+
+.login-button {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(226, 130, 20);
+  border: none;
+}
+
+h2 {
+  color: white;
+  font-family: "Caveat", cursive;
+}

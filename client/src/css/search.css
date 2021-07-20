@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+.search h1 {
+  font-family: "Otomanopee One", sans-serif;
+  color: chocolate;
+}
+
+.search-inputs {
+  display: flex;
+  color: chocolate;
+}
+
+.search-inputs h2 {
+  color: chocolate;
+  font-family: "Caveat", cursive;
+  margin-right: 10px;
+}
+.search-inputs button {
+  background-color: chocolate;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.search input {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(226, 130, 20);
+  background-color: rgb(26, 24, 24);
+}
+
+.box {
+  padding: 5px;
+  color: chocolate;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: chocolate;
+  margin: 15px;
+  font-family: "Merriweather", serif;
+}

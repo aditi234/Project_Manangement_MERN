@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap");
+
+.navbar {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.navbar li {
+  color: white;
+  margin: 15px;
+}
+
+.navbar button {
+  background-color: chocolate;
+  width: 150px;
+  height: 50px;
+}

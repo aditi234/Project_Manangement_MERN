@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+.task {
+  color: chocolate;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.task h2 {
+  font-family: "Caveat", cursive;
+  color: chocolate;
+  margin-right: 10px;
+}
+
+.task input {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(226, 130, 20);
+  background-color: rgb(26, 24, 24);
+}
+
+.task button {
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background-color: chocolate;
+  margin-left: 10px;
+  padding: 5px;
+  /* font-size: ch; */
+  margin-top: 10px;
+  font-family: "Merriweather", serif;
+}
+
+.header {
+  display: flex;
+}
+
+.member {
+  display: flex;
+  margin-top: 50px;
+}
+
+.box {
+  padding: 5px;
+  color: chocolate;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: chocolate;
+  margin: 15px;
+  font-family: "Merriweather", serif;
+}
+
+.box h4 {
+  margin: 10px;
+}
+.member {
+  color: chocolate;
+}
+
+.createProject input {
+  color: white;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(226, 130, 20);
+  background-color: rgb(26, 24, 24);
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+/* --------------------------task input--------------------- */
+.task-inputs {
+  display: flex;
+}
+.task-inputs h2 {
+  font-family: "Caveat", cursive;
+  margin-right: 10px;
+}
+/* ---------------------------------------------------------- */
+
+.percentage {
+  display: flex;
+  justify-content: center;
+}
+
+/* button {
+  border: none;
+  border-radius: 50px;
+  color: black;
+  background-color: chocolate;
+} */
+
+/* ---------------------drop down list-------------------------------------- */
+.dropbtn {
+  background-color: chocolate;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Merriweather", serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(187, 100, 37);
+}
+/* -------------------------------------------------------------------------- */
